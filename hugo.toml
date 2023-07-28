@@ -1,3 +1,12 @@
 baseURL = "http://unknownapedia.com/"
 languageCode = "en-us"
 title = "Unknownapedia"
+
+disableHugoGeneratorInject = true
+disableKinds = ["RSS"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+ordered = true
