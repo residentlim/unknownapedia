@@ -36,3 +36,17 @@ blockquote {
     padding: 0 1rem;
     border-left: 0.25rem solid $quote-border;
 }
+
+.tags-list {
+    padding: 0;
+    color: $quote-text;
+}
+
+.tags-list:before {
+    content: "Tags: ";
+}
+
+.tag-item {
+    display: inline-block;
+    margin-right: 0.25rem;
+}

@@ -5,6 +5,9 @@ title = "Unknownapedia"
 disableHugoGeneratorInject = true
 disableKinds = ["RSS"]
 
+[taxonomies]
+tag = "tags"
+
 [markup.goldmark.renderer]
 unsafe = true
 

@@ -2,6 +2,7 @@
 title: "Digital Garden"
 draft: false
 noindex: false
+tags: ["thought"]
 ---
 
 Since its inception, the internet has always been considered the next step of personal knowledge management. The decentralized nature of the internet allows anyone to create a website, write their own content and carve out a personal space.
