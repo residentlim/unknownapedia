@@ -1,0 +1,16 @@
+{
+  "name": "unknownapedia",
+  "version": "0.1.0",
+  "description": "Personal wiki and gateway to other services.",
+  "scripts": {
+    "hugo-build": "hugo",
+    "hugo-server": "hugo server",
+    "pagefind": "npx pagefind --source \"public\" --bundle-dir ../static/_pagefind",
+    "serve": "npm run hugo-build && npm run pagefind && npm run hugo-server",
+    "build": "npm run hugo-build && npx pagefind --source \"public\"",
+    "clean": "rimraf static/_pagefind public resources"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.1"
+  }
+}

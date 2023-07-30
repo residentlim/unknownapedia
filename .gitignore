@@ -1,2 +1,6 @@
 .hugo_build.lock
 resources/
+public/
+
+static/_pagefind/
+node_modules/
